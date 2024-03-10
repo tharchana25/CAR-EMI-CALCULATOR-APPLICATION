@@ -2,12 +2,18 @@
 The purpose of this project is to create an android moblie application where the user can calculate their equated monthly installment(EMI) based on the mortgage amount tenure and the interest rate.
 
 The formula to calculate EMI is 
+
                                     E = P * (r(1+r)n)/((1+r)n-1) 
 where 
-E = The EMI payable on the car loan amount.
-P = The Car loan Principal Amount.
-r = The interest rate value computed on a monthly basis.
-n = The loan tenure in the form of months.
+
+    E = The EMI payable on the car loan amount.
+
+    P = The Car loan Principal Amount.
+
+    r = The interest rate value computed on a monthly basis.
+
+    n = The loan tenure in the form of months.
+
 The down payment amount has to be deducted from the principal amount paid towards buying the Car.
 
 Develop an application that makes use of this AIDL service to calculate the EMI.
